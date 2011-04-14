@@ -24,10 +24,10 @@ You can run this as a pure rack application as
 
 The things that you can check as :-
 
-*http://localhost:9292/
-*http://localhost:9292/healthcheck
-*http://localhost:9292/tail
-*http://localhost:9292/tail/20
++ http://localhost:9292/
++ http://localhost:9292/healthcheck
++ http://localhost:9292/tail
++ http://localhost:9292/tail/20
 
 
 
