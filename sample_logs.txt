@@ -1,0 +1,91 @@
+SAGA GUI Development System | Copyright 1995-1997, MAYA Design Group
+ and Visage Support Modules |        All Rights Reserved.
+
+Release: 200 : Wed Apr  2 09:53:24 EST 1997
+SAGA:0 licensed to: US_GOVT (U.S. Government Owned Copy -- for use in
+Goverment Facilities Only)
+
+Cache: /home/maya/.visage/t54321
+Autoloading tpfdd with oracle user = user/pass into tpfdd_index and
+tpfdd_data.
+user = user/pass
+passwd = 
+datafile = /home/maya/.visage/t54321
+13:41:40 3 Status: Checking for cache
+(/home/maya/.visage/t54321_{index,data})
+should check for characterization! and merge here!
+13:41:40 3 Status: Connected tpfdd cache
+(/home/maya/.visage/t54321_{index,data})
+13:41:40 4 Status: Loading database 202 user/pass 
+13:41:40 10 Status: Attempting oracle login.
+13:41:40  Status: Oracle login successful.
+13:41:40 15 Status: LAD DB login user/pass 
+13:41:40  Status: LAD DB login successful.
+13:41:40  Status: Refreshing cache
+tpffdthing = select tpfdd_number from tpfdds where tpfdd_name like
+'54321%%'
+13:41:41  Status: Checking for ORACLE table: UNIT_CHARACTERISTICS
+13:41:42  Status: Checking for ORACLE table: CARGO_DETAIL
+13:41:42  Status: Checking for ORACLE table: SRC_LIST
+13:41:42  Status: Checking for ORACLE table: TUCHA_UNIT_TYPES
+13:41:42  Status: Checking for ORACLE table: TUCHA_CARGO_DETAILS
+13:41:42  Status: Table NOT found!
+13:41:42  Status: Checking for ORACLE table: TB55461
+13:41:42  Status: Checking for ORACLE table: COMPLETE_NSN_DESCRIPTION
+[216]
+Julian C0 = 0
+loading TPFDDs where tpfdd_number = 216 into Visage Cache.
+13:41:42 20 Status: Creating Geolocs...
+266 rows processed.
+13:41:45 25 Status: Creating TPFDDs...
+1 rows processed.
+13:41:45 30 Status: Creating MRs...
+1872 rows processed.
+13:42:3 35 Status: Creating FMs...
+0 rows processed.
+13:42:3 40 Status: Linking FM-MR...
+0 rows processed.
+13:42:4 45 Status: Reading Unit info...
+1872 rows processed.
+13:42:13 50 Status: Creating Units...
+1872 rows processed.
+13:42:20 55 Status: Reading role/echelon...
+514 rows processed.
+0 rows processed.
+13:42:25 60 Status: Creating tucha units...
+0 rows processed.
+0 rows processed.
+13:42:26 65 Status: Creating LINs...
+427 rows processed.
+13:42:34  Status: Loading TB-55-46-1 Vehicle detail...
+1622 rows processed.
+13:42:41  Status: Loading TB-55-46-1 Vehicle detail C_130
+860 rows processed.
+13:42:45  Status: Loading TB-55-46-1 Vehicle detail C_141
+863 rows processed.
+13:42:50  Status: Loading TB-55-46-1 Vehicle detail C_17
+945 rows processed.
+13:42:54  Status: Loading TB-55-46-1 Vehicle detail C_5
+1281 rows processed.
+13:42:58  Status: Loading TB-55-46-1 Vehicle detail KC_10
+1 rows processed.
+13:43:1  Status: Loading TB-55-46-1 Vehicle detail KC_135
+0 rows processed.
+13:43:4  Status: Loading TB-55-46-1 Vehicle detail DC_8
+380 rows processed.
+13:43:8  Status: Loading TB-55-46-1 Vehicle detail DC_10
+521 rows processed.
+13:43:11  Status: Loading TB-55-46-1 Vehicle detail B_747S
+716 rows processed.
+13:43:15  Status: Loading TB-55-46-1 Vehicle detail B_747N
+609 rows processed.
+13:43:19 82 Status: Linking item-MR...
+relating items to move_requirements ----------
+10547 rows processed.
+13:43:41  Status: Checking for ORACLE table: STACCS_MSN_SCHED
+13:43:41  Status: Table NOT found!
+13:43:41  Status: Skipping STACCS actuals -- STACCS tables not found
+13:43:41 90 Status: Done loading ORACLE data.
+13:43:41  Status: Constructing Interest Aggregates
+13:43:44 93 Status: Exiting.  This will take a while.
+13:43:44 93 Status: Exiting.  This will take a while.
