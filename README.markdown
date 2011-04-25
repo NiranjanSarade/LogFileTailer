@@ -12,6 +12,7 @@ Prerequisites
 
 sinatra (1.2.3)  
 file-tail (1.0.5)
+rack-test (0.5.7)
 ***
 
 Description
