@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'file/tail'
 
 class LogFileTailer
@@ -13,7 +14,7 @@ class LogFileTailer
     
   end
 
-  def tail_log(lines = 20)
+  def tail_log(lines = 15)
     File.open(@path_to_file) do |log|
       log.extend(File::Tail)
       log.return_if_eof = true

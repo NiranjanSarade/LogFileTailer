@@ -1,4 +1,5 @@
-require 'log_file_tailer'
+require File.dirname(__FILE__) + '/log_file_tailer'
+require 'sinatra'
 
 before do
   @log_file = LogFileTailer.new
